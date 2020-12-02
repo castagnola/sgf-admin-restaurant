@@ -21,7 +21,8 @@ class RestaurantCollection extends JsonResource
             'descripcion' => $this->descripcion,
             'direccion' => $this->direccion,
             'url_foto' => $this->url_foto,
-            'city' => new CityCollection($this->city)
+            'city' => new CityCollection($this->city),
+            'tables_restaurant' => new CityCollection($this->city)
         ];
     }
 }

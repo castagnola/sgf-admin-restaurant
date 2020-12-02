@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe144ef-0d88-4478-a0a8-91cedfa3fd44" name="Default Changelist" comment="" />
+    <list default="true" id="dfe144ef-0d88-4478-a0a8-91cedfa3fd44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/css/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/dist/js/i18n/datepicker.zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/air-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/i18n/datepicker.zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/js/timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/sass/_datepicker-config.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/sass/cell.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/sass/datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/sass/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/src/sass/timepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/cssPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/gzip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/air-datepicker/tasks/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/booking/bookingcreate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Booking/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Booking/BookingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Restaurant/RestaurantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Restaurant/RestaurantController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Restaurant/RestaurantCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Restaurant/RestaurantCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Restaurant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TableRestaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TableRestaurant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/booking/booking.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/booking/booking.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurant/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurant/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurant/restaurant.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurant/restaurant.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +100,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -126,6 +219,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sgf-admin-restaurant\public\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sgf-admin-restaurant\storage\app\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -141,29 +242,51 @@
       <option name="presentableId" value="Default" />
       <updated>1606352866740</updated>
       <workItem from="1606352867774" duration="36908000" />
-      <workItem from="1606390422987" duration="3132000" />
+      <workItem from="1606390422987" duration="3816000" />
+      <workItem from="1606498452026" duration="355000" />
+      <workItem from="1606520662008" duration="324000" />
+      <workItem from="1606521126894" duration="1445000" />
+      <workItem from="1606829239594" duration="9460000" />
+      <workItem from="1606844921687" duration="13877000" />
+      <workItem from="1606874433053" duration="18179000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="726" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606358772282">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="726" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606358772282" />
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606390072562">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606857544567">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606390072562" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606392135974">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606857544567" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606876442649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606392135974" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606381639785">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606876442649" />
+    <state x="0" y="0" width="1484" height="1037" key="dock-window-1" timestamp="1606882277773">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606381639785" />
+    <state x="0" y="0" width="1484" height="1037" key="dock-window-1/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606882277773" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606893185491">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.-6.1920.1080@0.0.1920.1050" timestamp="1606893185491" />
   </component>
 </project>

@@ -9,11 +9,24 @@ class Restaurant extends Model
     protected $table ='restaurants';
 
     /**
-     * Retorna las mesas asociadas al restaurante
+     *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function cities()
     {
         return $this->hasOne(Cities::class,'id','id_ciudad');
     }
+
+    /**
+     * Retorna las mesas asociadas al restaurante
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function tables_restaurant()
+    {
+        return $this->hasMany(TableRestaurant::class,'id_restaurante','id');
+    }
+
+
+
+
 }

@@ -137,7 +137,7 @@
                 <td>{{ $value->direccion }}</td>
                 <td>{{ $value->cities->nombre }}</td>
                 <td>
-                    <img src=" {{asset($value->url_foto)}} "  width="250">
+                    <img src="{{ asset('storage/'.$value->url_foto) }} "  width="100">
                 </td>
                 <td>
                     <form method="POST" action="{{ route('restaurants.destroy',[$value->id])}}">

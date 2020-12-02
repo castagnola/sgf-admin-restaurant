@@ -27,11 +27,14 @@
 @stop
 
 @section('content')
-    <h1>Reservar Mesa</h1>
-    <div class="col-3" style="">
-        <button type="button" placeholder="Agregar Reserva" class="btn btn-success" data-toggle="modal"
-                data-target="#addRestaurant"><i class="fas fa-plus"></i></button>
-    </div>
+    <h1>Mis Reservas</h1>
+    <form method="POST" action="{{route('booking.generate')}}">
+        @csrf
+        @method('POST')
+        <button type="submit" placeholder="Agregar Reserva" class="btn btn-success"
+        ><i class="fas fa-plus"></i></button>
+    </form>
+
     <!-- Modal -->
     <div class="modal fade" id="addRestaurant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
@@ -43,76 +46,6 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form method="POST" action="{{route('bookings.store')}}">
-                    <div class="modal-body">
-                        @csrf
-                        <div class="card-body">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <label>Mesa Disponible</label>
-                                </div>
-                            </div>
-                            <div class="input-group mb-3">
-                                <select name="mesa_id" class="form-control form-control-lg"
-                                        class=" @error('mesa') is-invalid @enderror form-control form-control-lg"
-                                        required>
-                                    @foreach($tables as $value )
-                                        <option value="{{$value->id}}">{{$value->numero_mesa}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="input-group mb-3">
-                            </div>
-                            @error('direccion')
-                            {{-- <div class="alert alert-danger">{{ $message }}</div>--}}
-                            <div style="margin-top: 2px" class="alert alert-danger">{{$message}}</div>
-                            @enderror
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <label>Nombre Comensal</label>
-                                </div>
-                            </div>
-                            <input type="text" name="nombre_comensal"
-                                   class=" @error('nombre_comensal') is-invalid @enderror form-control form-control-lg"
-                                   placeholder="nombre_comensal" required>
-                            <div class='col-sm-6'>
-                                <div class="form-group">
-                                    <label>Fecha de reserva</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
-                                        </div>
-                                        <input id="birth-date" name="fecha_reserva" type="text" class="form-control"
-                                               data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy"
-                                               data-mask="" im-insert="false" placeholder="dd/mm/yyyy" required>
-                                    </div>
-                                    <!-- /.input group -->
-                                </div>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-audio-description"></i></span>
-                                </div>
-                                <textarea type="text" name="comentarios"
-                                          class=" @error('comentarios') is-invalid @enderror form-control form-control-lg"
-                                          value="" placeholder="Comentarios" required></textarea>
-                            </div>
-                            @error('descripcion')
-                            {{-- <div class="alert alert-danger">{{ $message }}</div>--}}
-                            <div style="margin-top: 2px" class="alert alert-danger">{{$message}}</div>
-                            @enderror
-                            @error('descripcion')
-                            {{-- <div class="alert alert-danger">{{ $message }}</div>--}}
-                            <div style="margin-top: 2px" class="alert alert-danger">{{$message}}</div>
-                            @enderror
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Guardar</button>
-                    </div>
-                </form>
-
             </div>
         </div>
     </div>
@@ -149,13 +82,22 @@
 @stop
 
 @section('js')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
+
+    <script type="text/javascript">
+
+        $(function () {
+            $('#datetimepicker1').datepicker();
+        });
+    </script>
     <script>
 
         $(document).ready(function () {
             $('#example').DataTable();
-            $('#birth-date').mask('00/00/0000');
+            //  $('#birth-date').mask('00/00/0000');
+            //  $('.datepicker-here').datepicker([options])
+
+            $('.datepicker-here').data('datepicker')
 
         });
 

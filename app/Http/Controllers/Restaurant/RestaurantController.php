@@ -63,7 +63,7 @@ class RestaurantController extends Controller
         try {
             $path = $request->file('photo');
             $nombre = time() . "_" . $path->getClientOriginalName();
-            \Storage::disk('local')->put($nombre, \File::get($path));
+            \Storage::disk('public')->put($nombre, \File::get($path));
 
             $restaurant = new Restaurant();
             $restaurant->nombre = $request->nombre;
